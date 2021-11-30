@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Successfully verify search result display",
+        "description": "",
+        "id": "landing-in-home-page-and-display;successfully-verify-search-result-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2938053500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 20
+                }
+              ],
+              "location": "HomePageStepDefinition.launch_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 596787900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "product search by iphone",
+            "match": {
+              "location": "HomePageStepDefinition.product_search_by_iphone()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 944766100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on search button",
+            "match": {
+              "location": "HomePageStepDefinition.click_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 295125400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify user on search result display",
+            "match": {
+              "location": "HomePageStepDefinition.verify_user_on_search_result_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Landing in Home Page and Display",
+    "description": "",
+    "id": "landing-in-home-page-and-display",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  }
+]
